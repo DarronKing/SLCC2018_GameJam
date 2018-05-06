@@ -1,7 +1,12 @@
 fileFormatVersion: 2
-guid: 8810644fa3aad47268735ee341b018a2
+guid: c42c5040ce6fa42c58f5d4ff49fe7f6f
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Top_hat_sprite_0
+    21300002: Top_hat_sprite_
+    21300004: Top_hat_sprite_2
+    21300006: Top_hat_sprite_3
+    21300008: Top_hat_sprite_4
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -102,11 +107,111 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Top_hat_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 32
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f86e609b88742c5bc3a7323032e7ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top_hat_sprite_
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 32
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20ef54de0528451db8c3639f3b85044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top_hat_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 32
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ff6798a2c5f4de79fdfacdb8db1fa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top_hat_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc30c8362ce044e728443915b5e23ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top_hat_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 4
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb8a18f57b284b48b130e89b2344e79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bd3c5846f1537465891466fcce8f0c94
+    spriteID: f8dbfed1a1c2f42048568c845f39898b
     vertices: []
     indices: 
     edges: []
