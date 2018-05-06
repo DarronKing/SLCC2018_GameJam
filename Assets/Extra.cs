@@ -5,8 +5,8 @@ using UnityEngine;
 public class Extra : MonoBehaviour {
 
 	private float speed;
-	public float min_speed;
-	public float max_speed;
+	public float min_speed = 0.1f;
+	public float max_speed = 0.6f;
 	private float direction;
 	private bool left;
 	public bool destroy;
@@ -36,9 +36,7 @@ public class Extra : MonoBehaviour {
 	void Update () {
 
 		// moveHorizontal = Input.GetAxis ("Horizontal");
-		// if (destory == true){
-			
-		// }
+		
 
         
 
@@ -47,4 +45,9 @@ public class Extra : MonoBehaviour {
         transform.Translate((movement * Time.deltaTime) * speed);
 		
 	}
+
+	// void OnCollisionEnter2D (Collider2D other) {
+	// 	if (other.gameObject.tag == "Extra")
+
+	// }
 }
