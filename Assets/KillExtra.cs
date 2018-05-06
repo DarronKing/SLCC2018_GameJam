@@ -15,7 +15,6 @@ public class KillExtra : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
-		print("Collide");
 		if (other.gameObject.tag == "Extra")
 			Destroy(other.gameObject);
 	}
